@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Form</h2>
+    <p>Form will helps to send client data to the server</p>
+    <p>The &lt;form&gt; tag is used to create an HTML form for user input. It serves as a container for various input
+        elements like text fields, checkboxes, and buttons, enabling the collection of data for submission to a server
+        or processing via client-side scripts. </p>
+    <h3>Supported Elements </h3>
+    <ul>
+        <li value="1"><a href="https://www.geeksforgeeks.org/html-input-tag/" rel="noreferrer noopener"><span>&lt;input&gt;</span></a></li>
+        <li value="2"><a href="https://www.geeksforgeeks.org/html-button-tag/" rel="noreferrer noopener"><span>&lt;button&gt;</span></a></li>
+        <li value="3"><a href="https://www.geeksforgeeks.org/html-select-tag/" rel="noreferrer noopener"><span>&lt;select&gt;</span></a></li>
+        <li value="4"><a href="https://www.geeksforgeeks.org/html-textarea-tag/" rel="noreferrer noopener"><span>&lt;textarea&gt;</span></a></li>
+        <li value="5"><a href="https://www.geeksforgeeks.org/html-label-tag/" rel="noreferrer noopener"><span>&lt;label&gt;</span></a></li>
+        <li value="6"><a href="https://www.geeksforgeeks.org/html5-fieldset-tag/" rel="noreferrer noopener"><span>&lt;fieldset&gt;</span></a></li>
+        <li value="7"><a href="https://www.geeksforgeeks.org/html-legend-tag/" rel="noreferrer noopener"><span>&lt;legend&gt;</span></a></li>
+        <li value="8"><a href="https://www.geeksforgeeks.org/html-datalist-tag/" rel="noreferrer noopener"><span>&lt;datalist&gt;</span></a></li>
+        <li value="9"><a href="https://www.geeksforgeeks.org/html-output-tag/" rel="noreferrer noopener"><span>&lt;output&gt;</span></a></li>
+    </ul>
+
+    <table border="1" align="center"><thead><tr><th style="width: 350px;"><p dir="ltr" style="text-align: center;"><span>Attributes</span></p>
+    </th><th style="width: 350px;"><p dir="ltr" style="text-align: center;"><span>Descriptions</span></p>
+    </th></tr></thead><tbody><tr><th style="width: 350px;"><p dir="ltr"><a href="https://www.geeksforgeeks.org/html-form-name-attribute/" rel="noreferrer noopener"><span>name</span></a></p>
+    </th><td style="width: 350px;"><p dir="ltr"><span>It provides a name for the form.</span></p>
+    </td></tr><tr><th style="width: 350px;"><p dir="ltr"><a href="https://www.geeksforgeeks.org/html-form-target-attribute/" rel="noreferrer noopener"><b><strong>target</strong></b></a></p>
+    </th><td style="width: 350px;"><p dir="ltr"><span>It specifies where to display the response after form submission (like a new window or the current window).</span></p>
+    </td></tr><tr><th style="width: 350px;"><p dir="ltr"><a href="https://www.geeksforgeeks.org/html-action-attribute/" rel="noopener"><b><strong>Action Attribute</strong></b></a></p>
+    </th><td style="width: 350px;"><p dir="ltr"><span>Sends form data to the server upon submission.</span></p>
+    </td></tr><tr><th style="width: 350px;"><p dir="ltr"><a href="https://www.geeksforgeeks.org/html-enctype-attribute/" rel="noopener"><b><strong>Enctype Attribute</strong></b></a></p>
+    </th><td style="width: 350px;"><ul><li value="1"><b><strong>application/x-www-form-urlencoded:</strong></b><span> Standard form data submission.</span></li><li value="2"><b><strong>multipart/form-data:</strong></b><span> Used for file uploads like images, documents, etc.</span></li></ul></td></tr><tr><th style="width: 350px;"><p dir="ltr"><a href="https://www.geeksforgeeks.org/html-form-method-attribute/" rel="noreferrer noopener"><b><strong>Methods</strong></b></a></p>
+    </th><td style="width: 350px;"><ul><li value="1"><b><strong>Get Method:</strong></b><span> Limited URL character length, and used when we have to get data from somewhere like server.</span></li><li value="2"><b><strong>Post Method:</strong></b><span> No size limits, submissions cannot be bookmarked and used when we sends data to server.</span></li></ul></td></tr><tr><th style="width: 350px;"><p dir="ltr"><a href="https://www.geeksforgeeks.org/html-accept-charset-attribute/" rel="noreferrer noopener"><span>accept-charset</span></a></p>
+    </th><td style="width: 350px;"><p dir="ltr"><span>It specifies the character encodings that is to be used for the form submission</span></p>
+    </td></tr><tr><th style="width: 350px;"><p dir="ltr"><a href="https://www.geeksforgeeks.org/html-form-autocomplete-attribute/" rel="noreferrer noopener"><span>autocomplete</span></a></p>
+    </th><td style="width: 350px;"><p dir="ltr"><span>It specifies whether a form should have autocomplete on or off</span></p>
+    </td></tr><tr><th style="width: 350px;"><p dir="ltr"><a href="https://www.geeksforgeeks.org/html-form-novalidate-attribute/" rel="noreferrer noopener"><span>novalidate</span></a></p>
+    </th><td style="width: 350px;"><p dir="ltr"><span>It specifies that the form should not be validated before submitting</span></p>
+    </td></tr><tr><th style="width: 350px;"><p dir="ltr"><a href="https://www.geeksforgeeks.org/html-form-rel-attribute/" rel="noreferrer noopener"><span>rel</span></a></p>
+    </th><td style="width: 350px;"><p dir="ltr"><span>It specifies the relationship between a linked resource and the current document.</span></p>
+    </td></tr></tbody></table>
+    <!-- <form action="">
+        <p>data</p>
+    </form> -->
+    <form target="_blank" action="login.php">
+        <button type="submit">Click me</button>
+    </form>
+
+
+    
+    </form>
+    <h1> Example of the form</h1>
+    
+    <fieldset>
+        <legend><h2>Form Element</h2></legend>
+        <form action="" method="post">
+            <table border="1" align="center">
+                <tr>
+                    <td><label for="">User Name</label></td>
+                    <!-- <td><input type="text" value="data" placeholder="Enter User Name" name="username" id="username"></td> -->
+                    <td><input type="text" placeholder="Enter User Name" name="username" id="username"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Password</label></td>
+                    <td><input type="password" name="username" id="username"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Email</label></td>
+                    <td><input type="email" placeholder="example@mail.com" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Gender</label></td>
+                    <td>
+                        <input type="radio" name="gender" value="Male" id="male"><label for="male">Male</label> 
+                        <input type="radio" name="gender" value="Female" id="Female"><label for="Female">Female</label> 
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Hobby</label></td>
+                    <td>
+                        <input type="checkbox" name="chk[]" value="Cricket" id="Cricket"><label for="Cricket">Cricket</label> 
+                        <input type="checkbox" name="chk[]" value="Music" id="Music"><label for="Music">Music</label> 
+                        <input type="checkbox" name="chk[]" value="Travelling" id="Travelling"><label for="Travelling">Travelling</label> 
+                        <input type="checkbox" name="chk[]" value="Reading" id="Reading"><label for="Reading">Reading</label> 
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Address</label></td>
+                    <td>
+                        <textarea name="" rows="3" cols="50" id=""></textarea> 
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">City</label></td>
+                    <td>
+                        <select name="city" id="city">
+                            <option value="">--select city--</option>
+                            <option value="Ahmedabad">Ahmedabad</option>
+                            <option value="Surat">Surat</option>
+                            <option value="Baroda">Baroda</option>
+                        </select> 
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Education</label></td>
+                    <td>
+                        <select name="edu" id="edu" multiple>
+                            <option value="10th">10th</option>
+                            <option value="">12th</option>
+                            <option value="">BCA</option>
+                            <option value="">B.com</option>
+                            <option value="">BBA</option>
+                            <option value="">MCA</option>
+                            <option value="">MSc.IT</option>
+                            <option value="">Mphill</option>
+                        </select> 
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Mobile</label></td>
+                    <td>
+                        <input type="tel" name="" id=""> 
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Age</label></td>
+                    <td>
+                        <input type="number" name="" id=""> 
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Color</label></td>
+                    <td>
+                        <input type="color" name="" id=""> 
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Date</label></td>
+                    <td>
+                        <input type="date" name="" id=""> 
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Date</label></td>
+                    <td>
+                        <input type="datetime-local" name="" id=""> 
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Month</label></td>
+                    <td>
+                        <input type="month" name="" id=""> 
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Week</label></td>
+                    <td>
+                        <input type="week" name="" id=""> 
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">range</label></td>
+                    <td>
+                        <input type="range" name="" id=""> 
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="fuel">Fuel level:</label></td>
+                    <td>
+                        
+                        <meter id="fuel" min="0" max="100" low="33" high="66" optimum="80" value="78">at 50/100</meter>
+ 
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="fuel">Cars</label></td>
+                    <td>
+                        <select  name="cars" id="cars">
+                            <optgroup label="Swedish Cars">
+                              <option value="volvo">Volvo</option>
+                              <option value="saab">Saab</option>
+                            </optgroup>
+                            <optgroup label="German Cars">
+                              <option value="mercedes">Mercedes</option>
+                              <option value="audi">Audi</option>
+                            </optgroup>
+                          </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="fuel">Items</label></td>
+                    <td>
+                        <input list="browsers">
+                        <datalist id="browsers">
+                            <option value="Edge">
+                            <option value="Chrome">
+                            <option value="Fire">
+                            <option value="fox">
+                            <option value="inter">
+                            <option value="net">
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center"><input type="submit" name="btn" value="Save" id="btn"></td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="range" id="a" value="50">
+        +<input type="number" id="b" value="25">
+        =<output name="x" for="a b"></output>
+      </form>
+    <!-- <form id="example-form">
+        <input type="range" id="b" name="b" value="50" /> +
+        <input type="number" id="a" name="a" value="10" /> =
+        <output name="result" for="a b">60</output>
+      </form> -->
+</body>
+</html>
