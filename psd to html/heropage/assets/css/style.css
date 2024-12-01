@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid;
+}
+header{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 100px;
+}
+.nav{
+    
+    display: block;
+    border: 1px solid;
+    justify-items: end;
+    padding: 20px;
+}
+.nav-items{
+    display: flex;
+    width: 800px;
+    padding: 20px;
+    color: palevioletred;
+    box-sizing: border-box;
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin: 30px;
+}
